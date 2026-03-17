@@ -1,0 +1,35 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 
+font-family: "Bebas Neue", sans-serif; 
+font-family: "Roboto", sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0 135px;
+}
+
+/* navber section style */
+nav {
+    padding-top: 40px;
+}
+.nav-menu {
+    display: flex;
+    gap: 40px;
+    justify-content: right;
+}
+.nav-menu li {
+    list-style: none;
+}
+.nav-menu li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #3c3c3c;
+}
+
+/* hero section style */
